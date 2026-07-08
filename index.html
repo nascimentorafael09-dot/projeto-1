@@ -47,10 +47,10 @@
     </main>
 </body>
 <script>
-const botao=document.querySelectorALL
+const botao=document.querySelectorALL("button")
 
-  botoes.forEach(function(botao){
-     ("button");botao.addEventListener("click",BotaoClicado);
+  botoes.forEach( function(botao){
+     botao.addEventListener("click",BotaoClicado);
      function BotaoClicado(){
        console.log("fui clicado")
        let texto = botao.querySelector("span")
