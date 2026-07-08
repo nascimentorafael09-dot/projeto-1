@@ -47,18 +47,17 @@
     </main>
 </body>
 <script>
-  const botoes = document.querySelectorALL("button")
+  const botoes = document.querySelectorALL("button");
 
   botoes.forEach( function(botao){
-     botao.addEventListener("click",BotaoClicado);
+     botao.addEventListener("click", BotaoClicado);
      function BotaoClicado(){
-       console.log("fui clicado")
-       let texto = botao.querySelector("span")
+       console.log("fui clicado");
+       let texto = botao.querySelector("span");
        texto.textContent++;
       }
    }
-);
-  
+)1
 
 </script>
 </html>
